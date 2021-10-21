@@ -13,4 +13,4 @@ winpath=$(wslpath -w $path);
 echo "Editing ${path}"
 echo "Windows path is ${winpath}"
 
-/mnt/c/Program\ Files/Sublime\ Text\ 3/subl.exe $winpath
+/mnt/c/Program\ Files/Sublime\ Text\ 3/subl.exe -w $winpath
